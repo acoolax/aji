@@ -1,1 +1,2 @@
 # aji
+Site for sushi
