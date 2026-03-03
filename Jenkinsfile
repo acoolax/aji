@@ -7,7 +7,7 @@ pipeline {
         REGISTRY_USER = "acoolua"
     }
 
-    
+    stages {
         stage('Build Docker Image') {
             steps {
                 script {
