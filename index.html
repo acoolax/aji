@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Доставка суші</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Меню суші</h1>
+    </header>
+    
+    <div class="categories">
+        <h2>Категорія 1</h2>
+        <div class="product">
+            <img src="sushi1.jpg" alt="Суші 1">
+            <h3>Суші 1</h3>
+            <p>Ціна: $10</p>
+            <button class="add-to-cart">Додати до корзини</button>
+        </div>
+        <div class="product">
+            <img src="sushi2.jpg" alt="Суші 2">
+            <h3>Суші 2</h3>
+            <p>Ціна: $12</p>
+            <button class="add-to-cart">Додати до корзини</button>
+        </div>
+        <!-- Додайте більше товарів в категорії 1 тут -->
+    </div>
+    
+    <div class="categories">
+        <h2>Категорія 2</h2>
+        <div class="product">
+            <img src="sushi3.jpg" alt="Суші 3">
+            <h3>Суші 3</h3>
+            <p>Ціна: $15</p>
+            <button class="add-to-cart">Додати до корзини</button>
+        </div>
+        <div class="product">
+            <img src="sushi4.jpg" alt="Суші 4">
+            <h3>Суші 4</h3>
+            <p>Ціна: $18</p>
+            <button class="add-to-cart">Додати до корзини</button>
+        </div>
+        <!-- Додайте більше товарів в категорії 2 тут -->
+    </div>
+    
+    <div class="cart">
+        <h2>Корзина</h2>
+        <ul class="cart-items">
+            <!-- Сюди додаються вибрані товари -->
+        </ul>
+        <p>Загальна сума: <span class="total-price">$0.00</span></p>
+        <form>
+            <label for="phone">Номер телефону:</label>
+            <input type="text" id="phone" name="phone" required>
+            
+            <label for="people">Кількість людей:</label>
+            <input type="number" id="people" name="people" required>
+            
+            <label for="promo">Промокод:</label>
+            <input type="text" id="promo" name="promo">
+            
+            <button type="submit">Відправити</button>
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
