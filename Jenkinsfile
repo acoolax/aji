@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        DOCKER_IMAGE = "aji-site"
+        DOCKER_IMAGE = "acoolua/aji-site"
         DOCKER_TAG = "${env.BUILD_NUMBER}"
         REGISTRY_USER = "acoolua"
     }
