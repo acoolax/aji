@@ -7,13 +7,7 @@ pipeline {
         REGISTRY_USER = "acoolua"
     }
 
-    stages {
-        stage('Checkout') {
-            steps {
-                checkout scm
-            }
-        }
-
+    
         stage('Build Docker Image') {
             steps {
                 script {
